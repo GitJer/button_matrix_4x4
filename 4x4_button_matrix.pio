@@ -1,5 +1,5 @@
 ; in the c-program the 'set' pins are the 4 output pins to the 4x4 button matrix
-; in the c-program the 'in' pins are the 4 input pins to the 4x4 button matrix, these are pulled_down
+; in the c-program the 'in' pins are the 4 input pins from the 4x4 button matrix, these are pulled_down
 
 .program button_matrix
 

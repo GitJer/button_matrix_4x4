@@ -5,13 +5,13 @@
 
 start:
     set pins 1 [31]  ; set 0001 on the 4 output pins (activate first column) and wait for the signal to stabilize
-    in pins 4        ; shift the input pins in the ISR
+    in pins 4        ; shift the input pins into the ISR
     set pins 2 [31]  ; set 0010 on the 4 output pins (activate second column) and wait for the signal to stabilize
-    in pins 4        ; shift the input pins in the ISR
+    in pins 4        ; shift the input pins into the ISR
     set pins 4 [31]  ; set 0100 on the 4 output pins (activate third column) and wait for the signal to stabilize
-    in pins 4        ; shift the input pins in the ISR
+    in pins 4        ; shift the input pins into the ISR
     set pins 8 [31]  ; set 1000 on the 4 output pins (activate fourth column) and wait for the signal to stabilize
-    in pins 4        ; shift the input pins in the ISR
+    in pins 4        ; shift the input pins into the ISR
     mov x ISR        ; move the ISR into the x scratch register
     jmp !x start     ; if the x contains 0, no key was pressed, start over
     push noblock     ; a key was pressed, push it into the RX FIFO

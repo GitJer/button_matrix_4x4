@@ -1,3 +1,10 @@
+# This repository is updated and moved to [here](https://github.com/GitJer/Some_RPI-Pico_stuff/tree/main/button_matrix_4x4)
+
+Please use the new repository!
+
+OLD TEXT:
+
+
 # 4x4 button matrix
 
 This code reads a 4x4 button matrix using PIO code for the Raspberry Pico. In the image below a simple 4x4 button matrix is shown. Four of its pins are connected to the rows (from the PIO code perspective these are outputs) and the other 4 are connected to its columns (used as pulled down inputs).

@@ -1,4 +1,4 @@
-# This repository is updated and moved to [here](https://github.com/GitJer/Some_RPI-Pico_stuff/tree/main/button_matrix_4x4)
+# This repository has been updated and moved to [here](https://github.com/GitJer/Some_RPI-Pico_stuff/tree/main/button_matrix_4x4)
 
 Please use the new repository!
 
